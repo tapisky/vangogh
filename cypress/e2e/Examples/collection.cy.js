@@ -21,9 +21,6 @@ describe('Home test cases', () => {
 
   it('Test Case 3: Click on first result and verify painting info', () => {
     collectionPage.loadPaintingByPosition(1);
-    paintingPage.expandDetailsSection();
-    cy.contains('F0464').should('exist');
-    cy.contains('JH1589').should('exist');
-    cy.contains('s0032V1962').should('exist');
+    paintingPage.verifyPainting('F0464', 'JH1589', 's0032V1962');
   })
 })
