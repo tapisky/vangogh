@@ -29,7 +29,7 @@ class CollectionPage extends PageObject {
 
     loadPaintingByPosition(position) {
         cy.intercept('GET', '/nl/collectie/*').as('load');
-        cy.get('div[aria-posinset="' + String(position) + '"]').click();
+        cy.get('div[aria-posinset="' + String(position) + '"]').first().click();
         cy.wait('@load');
     }
 
