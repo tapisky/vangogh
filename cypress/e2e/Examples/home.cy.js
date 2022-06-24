@@ -8,7 +8,7 @@ describe('Home test cases', () => {
     homePage.initialize();
   });
 
-  it('Test Case 1: Home Page -> Collection', () => {
+  it('Home Page: click Collection link', () => {
     cy.visit('/');
     homePage.discoverCollectionLink().click();
     cy.url().should('eq', Cypress.config().baseUrl + '/nl/collectie');
