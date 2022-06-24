@@ -1,3 +1,3 @@
 # vangogh
-[![cypress tests result](https://github.com/tapisky/vangogh/actions/workflows/cypress.js.yml/badge.svg?event=pull_request)](https://github.com/tapisky/vangogh/actions/workflows/cypress.js.yml/badge.svg?event=pull_request)
+[![cypress tests result](https://github.com/tapisky/vangogh/actions/workflows/cypress.js.yml/badge.svg?)](https://github.com/tapisky/vangogh/actions/workflows/cypress.js.yml/badge.svg?)
 Demo Test cases with Cypress
