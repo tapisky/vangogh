@@ -1,7 +1,7 @@
 import CollectionPage from "../pageobject/CollectionPage";
 import PaintingPage from "../pageobject/PaintingPage";
 
-describe('Home test cases', () => {
+describe('Collection test cases', () => {
 
   const collectionPage = new CollectionPage();
   const paintingPage = new PaintingPage();
